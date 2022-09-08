@@ -1,5 +1,5 @@
 # OrderFood-Running-CLI-Application-Inside-A-Container
-# How to containerize your CLI application
+# How to containerize your CLI application and run it
 
 I have make a cli application using Go and I want to containerize it. 
 
@@ -30,5 +30,4 @@ Here are the steps that I followed:
 12. The container, if it gets stopped then you can enter into it by executing `docker exec -it order-food-container ash` command. Then run the cli app by running `go run .`command.
   ![image](https://user-images.githubusercontent.com/106534693/189168872-cce11db0-4ea0-4bb1-878d-050fa6ecaf27.png)
   
-# Outro
-  Your Go CLI application is containerized!
+ Your Go CLI application is containerized and it's running.
